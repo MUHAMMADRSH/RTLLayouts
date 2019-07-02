@@ -26,7 +26,10 @@ class MyApp extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Text("سلام")
+              Text("سلام",style: TextStyle(
+                color: Colors.pink,
+                fontSize: 28
+              ),)
             ],
           ),
         ),
